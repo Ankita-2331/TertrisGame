@@ -1,0 +1,64 @@
+
+#score {
+  display: inline-block;
+
+}
+
+#gui {
+   position: absolute;
+  top: 300px;
+  left: 250px;
+}
+
+#gameover {
+  position: absolute;
+  height: 250px;
+  width: 500px;
+  top: 100px;
+  padding: 50px;
+  background: rgb(50, 3, 59)
+ }
+
+#gameover p {
+  font-size: 40px;
+}
+
+
+p,button {
+  color: white;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 25px;
+  left: 250px;
+}
+
+button {
+  padding: 20px;
+  margin-bottom: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(177, 206, 34);
+}
+
+button:active, button:focus {
+  border: 3px solid rgb(79, 182, 31);
+  padding: 17px;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(71, 126, 34);
+}
+
+div {
+  text-align: center;
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.hide {
+  display: none;
+}
